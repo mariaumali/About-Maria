@@ -1,0 +1,155 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  background-color: #fafdcb;
+  color: #248ea9;
+}
+
+h1 {
+  font-family:'Sacramento', cursive;
+  font-weight: normal;
+  font-size: 90px;
+  padding-top: 40%
+}
+
+h2, h4 {
+  font-weight: normal;;
+  margin-bottom: 5%;
+
+}
+
+h4 {
+  color: #28c3d4;
+}
+
+/*SECTIONS*/
+#title {
+  background-color: #aee7e8;
+  position: relative;
+  padding-bottom: 3%;
+}
+
+#about, #skills {
+    padding: 3% 30%;
+}
+
+#skills{
+  background-color: #aee7e8;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+#resume {
+  margin: 2% 0;
+}
+
+
+/*CLASSES*/
+.navbar {
+  padding: 2%;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding:0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.row {
+  padding-bottom: 10%;
+}
+
+.intro {
+  color: #248ea9;
+}
+
+.about {
+  padding: 3% 20% 5%;
+}
+
+.skill-par{
+  text-align: left;
+}
+
+/* OTHER IMAGES*/
+.sun {
+  width: 40%;
+  padding-bottom: 35%;
+}
+.cloud {
+  width: 60%;
+  padding-top: 5%;
+  position: relative;
+  top: 90px;
+}
+
+.profile-image {
+  width: 40%;
+  border-radius: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  margin: 15% 0;
+}
+
+/*SKILLS IMAGES*/
+
+.skill-image{
+  width: 40%;
+  float: left;
+  margin: 20px;
+}
+
+.web-dev {
+   width: 40%;
+  float: right;
+  margin: 20px;
+}
+
+/*MY RESUME BUTTON*/
+
+.footer-link {
+  line-height: 3.5rem;
+  margin: 2%;
+  color: #28c3d4;
+}
+
+.footer-link:hover {
+  color: #248ea9;
+  text-decoration: none;
+}
+
+.credit {
+  margin: 2% 0;
+}
+
+@media (max-width: 787px) {
+h1 {
+  padding-bottom: 10%;
+}
+.sun {
+  width: 40%;
+  padding-bottom: 5%;
+}
+.cloud {
+  width: 60%;
+}
+  .skill-image{
+  width: 40%;
+}
+.web-dev {
+  width: 40%;
+  float: left;
+}
+#about, #skills {
+  padding: 3% 10%;
+}
+}
