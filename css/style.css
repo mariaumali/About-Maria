@@ -26,23 +26,22 @@ h4 {
 #title {
   background-color: #aee7e8;
   position: relative;
-  padding-bottom: 3%;
+  padding-bottom: 10%;
 }
 
 #about, #skills {
-    padding: 3% 30%;
+  padding: 3% 30%;
 }
 
 #skills{
   background-color: #aee7e8;
-  margin: 100px auto;
+  margin: 3% auto;
   line-height: 2;
 }
 
-#resume {
-  margin: 2% 0;
+#contact {
+  margin: 7% 15%;
 }
-
 
 /*CLASSES*/
 .navbar {
@@ -115,6 +114,33 @@ h4 {
 }
 
 /*MY RESUME BUTTON*/
+.btn {
+  background: #ff21aa;
+  background-image: -webkit-linear-gradient(top, #ff21aa, #3444ad);
+  background-image: -moz-linear-gradient(top, #ff21aa, #3444ad);
+  background-image: -ms-linear-gradient(top, #ff21aa, #3444ad);
+  background-image: -o-linear-gradient(top, #ff21aa, #3444ad);
+  background-image: linear-gradient(to bottom, #ff21aa, #3444ad);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Sacramento', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+
+.btn:hover {
+  background: #ffee00;
+  background-image: -webkit-linear-gradient(top, #ffee00, #deb614);
+  background-image: -moz-linear-gradient(top, #ffee00, #deb614);
+  background-image: -ms-linear-gradient(top, #ffee00, #deb614);
+  background-image: -o-linear-gradient(top, #ffee00, #deb614);
+  background-image: linear-gradient(to bottom, #ffee00, #deb614);
+  text-decoration: none;
+}
 
 .footer-link {
   line-height: 3.5rem;
@@ -131,16 +157,17 @@ h4 {
   margin: 2% 0;
 }
 
-@media (max-width: 787px) {
+@media (max-width: 992px) {
 h1 {
   padding-bottom: 10%;
 }
 .sun {
-  width: 40%;
-  padding-bottom: 5%;
+  width: 80%;
+  padding-bottom: 10%;
 }
 .cloud {
-  width: 60%;
+  width: 90%;
+  'padding-bottom: 15%;
 }
   .skill-image{
   width: 40%;
