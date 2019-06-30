@@ -114,31 +114,20 @@ h4 {
 }
 
 /*MY RESUME BUTTON*/
-.btn {
-  background: #ff21aa;
-  background-image: -webkit-linear-gradient(top, #ff21aa, #3444ad);
-  background-image: -moz-linear-gradient(top, #ff21aa, #3444ad);
-  background-image: -ms-linear-gradient(top, #ff21aa, #3444ad);
-  background-image: -o-linear-gradient(top, #ff21aa, #3444ad);
-  background-image: linear-gradient(to bottom, #ff21aa, #3444ad);
+.butn {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Work Sans', sans-serif;
   color: #ffffff;
   font-size: 20px;
+  background: #24c99d;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-
-.btn:hover {
-  background: #ffee00;
-  background-image: -webkit-linear-gradient(top, #ffee00, #deb614);
-  background-image: -moz-linear-gradient(top, #ffee00, #deb614);
-  background-image: -ms-linear-gradient(top, #ffee00, #deb614);
-  background-image: -o-linear-gradient(top, #ffee00, #deb614);
-  background-image: linear-gradient(to bottom, #ffee00, #deb614);
+.butn:hover {
+  background: #59f7c0;
   text-decoration: none;
 }
 
